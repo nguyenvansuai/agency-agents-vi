@@ -1,0 +1,12 @@
+{
+  "name": "suai",
+  "description": "Plugin của Sự AI cho doanh nghiệp Việt Nam",
+  "owner": { "name": "Sự AI", "url": "https://suai.vn" },
+  "plugins": [
+    {
+      "name": "agency-agents-vi",
+      "source": "./plugins/agency-agents-vi",
+      "description": "6 skill Việt hóa: TikTok, livestream bán hàng, sàn TMĐT, quảng cáo MXH, sáng tạo quảng cáo, chăm sóc khách Zalo."
+    }
+  ]
+}

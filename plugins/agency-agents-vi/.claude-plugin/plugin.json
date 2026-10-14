@@ -1,0 +1,9 @@
+{
+  "name": "agency-agents-vi",
+  "version": "1.0.0",
+  "description": "6 skill Việt hóa cho doanh nghiệp Việt Nam: TikTok, livestream bán hàng, sàn TMĐT, quảng cáo MXH, sáng tạo quảng cáo, chăm sóc khách Zalo.",
+  "author": { "name": "Sự AI", "url": "https://suai.vn" },
+  "homepage": "https://github.com/nguyenvansuai/agency-agents-vi",
+  "repository": "https://github.com/nguyenvansuai/agency-agents-vi",
+  "license": "MIT"
+}

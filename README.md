@@ -25,16 +25,28 @@ Biên soạn bởi **[Sự AI](https://suai.vn)**.
 
 > Chỉ cài skill bạn thật sự cần. Cài quá nhiều skill chồng chéo làm Claude khó chọn đúng.
 
-## Cài vào Claude Code
+## Cài vào Claude Code (plugin)
 
-```bash
-git clone https://github.com/nguyenvansuai/agency-agents-vi.git
-cp -r agency-agents-vi/skills/* ~/.claude/skills/
+Trong phiên Claude Code, gõ 1 lệnh (Claude Code 2.1.275 trở lên):
+
 ```
+/plugin install agency-agents-vi --marketplace nguyenvansuai/agency-agents-vi
+```
+
+Bản Claude Code cũ hơn, dùng 2 lệnh:
+
+```
+/plugin marketplace add nguyenvansuai/agency-agents-vi
+/plugin install agency-agents-vi@suai
+```
+
+Cập nhật bản mới: `/plugin marketplace update suai`.
+
+Hoặc chỉ cần nhắn Claude Code: *"Cài plugin agency-agents-vi từ https://github.com/nguyenvansuai/agency-agents-vi"*.
 
 ## Tùy chỉnh cho doanh nghiệp của bạn
 
-Mở `SKILL.md` và thêm vào đầu nội dung các thông tin riêng: ngành hàng, sản phẩm chủ lực, giọng thương hiệu, chính sách đổi trả… Sau đó nén lại **cả thư mục** (tên thư mục phải trùng `name` trong `SKILL.md`) và upload lại.
+Mã nguồn skill nằm trong [`plugins/agency-agents-vi/skills/`](plugins/agency-agents-vi/skills/). Mở `SKILL.md` và thêm vào đầu nội dung các thông tin riêng: ngành hàng, sản phẩm chủ lực, giọng thương hiệu, chính sách đổi trả… Sau đó nén lại **cả thư mục** (tên thư mục phải trùng `name` trong `SKILL.md`) và upload lại.
 
 ## Lưu ý
 
